@@ -4,7 +4,7 @@ import emoji
 #print(emoji.emojize(":right-facing_fist:"))
 #print(emoji.emojize(":hand_with_fingers_splayed:"))
 #print(emoji.emojize(":vulcan_salute:"))
-#testando o commit
+#apagado direto norepositorio global do git hub
 rock = ":right-facing_fist:"
 paper = ":hand_with_fingers_splayed:"
 scissor = ":vulcan_salute:"
