@@ -16,7 +16,7 @@ while continuar_cadastro:
         elif r == "n":
             print("Então, até logo!")
             continuar_cadastro = False
-            print(len(maiores))
+            print(len(maiores) + "pessoas maiores de idade")
             for n, i in grupo:
                 print(f"{n} foi registrado, e tem {i} anos de idade!")
 
