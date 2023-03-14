@@ -14,11 +14,21 @@ try:
     for i, a in enumerate(ficha):
         print(f"{i + 1:<10}{a[0]:<10}{a[2]:>10}") 
         """Esse for foi criado para classificar a lista"""      
+    
+    print("Escolha o aluno pelo número do indice, para finalizar[999]")
+    nota_dos_alunos = int(input("quer ver notas de qual aluno? "))
+    while nota_dos_alunos != 999:
+        if nota_dos_alunos == 999:
+            print("Até mais!!!")
+            break
+        if nota_dos_alunos <= len(ficha):
+            print(f"o aluno {ficha[nota_dos_alunos -1][0]} obteve as notas {ficha[nota_dos_alunos -1][1]}!")
+            nota_dos_alunos = int(input("quer ver notas de qual aluno? "))
 
 
-
-except:
-    pass
+except Exception as error:
+    print(f"O erro de '{error}' foi cometido durante o processo!")
+    
 
 
    
