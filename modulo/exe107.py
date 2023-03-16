@@ -1,3 +1,4 @@
+"""Exercicio sobre modurlaridade"""
 import moeda
 
 preco = float(input("Digite um preço! "))
